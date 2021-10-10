@@ -1,0 +1,62 @@
+[
+	{
+		"display": "Salt Lake City",
+		"name":  "west us",
+		"host" :"107.182.233.168",
+		"port" :37015
+	},
+	{
+		"display": "Oregon - GCE 1",
+		"name":	"west us",
+		"host": "104.198.102.93",
+		"port": 37015
+	},
+	{
+		"display":"Oregon - GCE 2",
+		"name": "west us",
+		"host":"104.198.101.253",
+		"port": 37015
+    },
+	{
+		"display": "Oregon 1",
+		"name":"west us",
+		"host":"52.40.240.176",
+		"port":37015
+	},
+	{
+		"display": "Oregon 2",
+		"name":	"west us",
+		"host":	"52.42.44.79",
+		"port": 37015
+	},
+	{
+		"display":"St Louis",
+		"name" :"central us",
+		"host": "209.239.121.82",
+		"port" :37015
+	},
+	{
+		"display":"Dallas",
+		"name":"central us",
+		"host":	"63.251.239.123",
+		"port":	37015
+	},
+	{
+		"display": "Iowa - GCE 1",
+		"name": "central us",
+		"host":"130.211.193.234",
+		"port":37015
+    },
+	{
+		"display" :"Iowa - GCE 2",
+		"name" :	"central us",
+		"host" :   "104.197.17.180",
+		"port":     37015
+	},
+	{
+		"display": "Iowa - GCE 3",
+		"name" :	"central us",
+		"host" :	"104.197.136.10",
+		"port" :	37015
+    }
+]
