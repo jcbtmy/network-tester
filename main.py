@@ -1,5 +1,7 @@
+
+
+from icmplib import traceroute, multiping, ping
 import matplotlib
-from icmplib import traceroute, multiping, ping 
 import netifaces
 import json
 
@@ -20,7 +22,7 @@ def getDefaultGateway():
 
 def doTest(ipAddrs):
     
-    response = ping(ipAddrs, count=5, interval=0.1, payload_size=5024)
+    response = ping(ipAddrs, count=5, interval=0.1, payload_size=5024, privileged=False)
 
     if response.is_alive:
         return response.rtts
